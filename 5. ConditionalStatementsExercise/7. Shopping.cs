@@ -21,7 +21,7 @@ namespace _7._Shopping
             {
                 total_sum = total_sum - total_sum * 15 / 100;
             }
-            if(total_sum < budget)
+            if(total_sum <= budget)
             {
                 Console.WriteLine($"You have {budget - total_sum:f2} leva left!");
             }
